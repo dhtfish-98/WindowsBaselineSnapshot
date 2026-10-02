@@ -3,5 +3,6 @@
   "package": "windows_baseline_snapshot",
   "command": "windows-baseline-snapshot",
   "license": "MIT",
-  "description": "Complete finding-list comparison against supplied Windows observations"
+  "description": "Complete finding-list comparison against supplied Windows observations",
+  "version": "0.1.1"
 }
