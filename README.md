@@ -1,5 +1,9 @@
 # WindowsBaselineSnapshot
 
+Version **0.1.2**.
+
+New implementation author: **dhtfish98**. Copyright (c) 2026 dhtfish98 applies to the new implementation code. Upstream policy data, original notices and source references retain their original attribution.
+
 Complete finding-list comparison against supplied Windows observations. Complete independent **new scope**, not the whole upstream system rewritten.
 
 Input: `{"baseline":"machine","observations":{"1000":{"state":"measured","method":"WindowsOptionalFeature","value":"Disabled"}}}`. `baseline` selects the complete frozen machine (418 rows) or user (56 rows) finding list, both bundled unchanged under the upstream MIT notice. Every selected row is reported; absent, unavailable, not_configured and method-mismatched records are OPEN. Measured values must be bounded strings or 64-bit integers. Operators cover equality, inequality, numeric boundaries, empty-or-equal and exact token membership; semicolon/comma tokens compare without order and with case folding. This avoids treating `NotDisabled` as `Disabled`. No fallback default is fabricated. Upstream PowerShell collectors, backup/GPO/hardening actions, scoring and substring comparator equivalence are outside this complete new scope. Source method labels and measured state are supplied claims, not authenticated Windows measurements. `good.json` is explicitly synthetic: recommendations copied as measurements only to exercise all policy rows.

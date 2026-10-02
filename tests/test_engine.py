@@ -1,3 +1,5 @@
+# Author: dhtfish98
+# Copyright (c) 2026 dhtfish98
 import unittest
 from windows_baseline_snapshot import analyze
 from windows_baseline_snapshot.engine import load_policy, compare

@@ -1,3 +1,5 @@
+# Author: dhtfish98
+# Copyright (c) 2026 dhtfish98
 """Compare all rows of frozen Windows policy lists to supplied observations."""
 import csv
 import io

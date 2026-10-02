@@ -4,5 +4,6 @@
   "command": "windows-baseline-snapshot",
   "license": "MIT",
   "description": "Complete finding-list comparison against supplied Windows observations",
-  "version": "0.1.1"
+  "version": "0.1.2",
+  "author": "dhtfish98"
 }

@@ -1,3 +1,15 @@
+# Current package verification — 2026-10-02
+
+Version **0.1.2**: **14 installed unittest cases PASS**. The rebuilt package records `dhtfish98` as the new implementation author. Runtime files matched source and the separately installed wheel; retained third-party notices were checked.
+
+Wheel: `windows_baseline_snapshot-0.1.2-py3-none-any.whl`. SHA-256: `5c3cbbe09391c7d92c58ba182d2a04111a72e626eba9277b7eed6c808a63b0f4`. Current result: `ATTRIBUTION_UPDATE_20261002.json`.
+
+Reproduce with `python -m pip install .`, `python -m unittest discover -s tests -v`, and `python -m pip wheel --no-deps --wheel-dir artifacts .`. Local checks exercised macOS Python 3.14; exact-commit GitHub CI records Linux results separately. Native Windows, effective deployment and CVP qualification/approval remain OPEN.
+
+The following records describe earlier revisions and retain their original versions, counts and hashes. They do not validate this new package.
+
+---
+
 # Current re-audit verification — 2026-10-02
 
 Version **0.1.1**: **14 installed unittest cases PASS**. A new wheel was built and installed into a fresh, separate environment. Runtime bytes in source, wheel and installed package matched. Dependency checks and retained license bytes passed.

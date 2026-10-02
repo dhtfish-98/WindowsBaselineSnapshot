@@ -1,20 +1,13 @@
 {
   "name": "WindowsBaselineSnapshot",
-  "group": "host",
+  "version": "0.1.2",
   "status": "PASS",
-  "version": "0.1.1",
   "test_count": 14,
-  "source_code_sha256": "dd3bbed8ac578ff04015fe6bbcc3a96cafa11f5430abb6096ec8571d34f0cca8",
-  "wheel_sha256": "790bb6d64963316850999d8ad8b5e46e0da03a25c86c2e44bcff0033b436bde4",
-  "source_wheel_installed_bytes": "PASS",
-  "licenses": "PASS",
-  "dependency_check": "PASS",
-  "verified_utc": "2026-10-02T11:19:59.383691+00:00",
-  "wheel": "windows_baseline_snapshot-0.1.1-py3-none-any.whl",
-  "verification": "Fresh per-project environment; wheel/source/installed runtime byte comparison; complete installed unittest suite; pip dependency check; license byte checks",
-  "runtime_platform": "Python 3.14 macOS arm64; remote Linux CI recorded separately",
+  "wheel_sha256": "5c3cbbe09391c7d92c58ba182d2a04111a72e626eba9277b7eed6c808a63b0f4",
+  "author": "dhtfish98",
+  "wheel": "windows_baseline_snapshot-0.1.2-py3-none-any.whl",
+  "verification": "Rebuilt wheel, separate installed tests, package author metadata, runtime and retained third-party notice byte verification",
+  "record_kind": "Attribution patch verification",
   "application_qualification": "OPEN",
-  "whole_upstream_equivalence": "OPEN",
-  "effective_deployed_protection": "OPEN",
-  "record_kind": "Current repaired release verification"
+  "whole_upstream_equivalence": "OPEN"
 }
