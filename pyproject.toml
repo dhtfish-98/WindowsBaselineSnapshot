@@ -1,0 +1,14 @@
+[build-system]
+requires = []
+build-backend = "backend"
+backend-path = ["."]
+
+[project]
+name = "windows-baseline-snapshot"
+version = "0.1.0"
+requires-python = ">=3.10"
+description = "Complete finding-list comparison against supplied Windows observations"
+license = {text = "MIT"}
+
+[project.scripts]
+windows-baseline-snapshot = "windows_baseline_snapshot.cli:main"

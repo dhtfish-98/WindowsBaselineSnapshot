@@ -1,0 +1,7 @@
+{
+  "distribution": "windows-baseline-snapshot",
+  "package": "windows_baseline_snapshot",
+  "command": "windows-baseline-snapshot",
+  "license": "MIT",
+  "description": "Complete finding-list comparison against supplied Windows observations"
+}

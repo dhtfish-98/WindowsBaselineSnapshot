@@ -1,0 +1,2095 @@
+{
+  "baseline": "machine",
+  "observations": {
+    "1000": {
+      "state": "measured",
+      "method": "WindowsOptionalFeature",
+      "value": "Enabled"
+    },
+    "1103": {
+      "state": "measured",
+      "method": "secedit",
+      "value": "0"
+    },
+    "1101": {
+      "state": "measured",
+      "method": "accountpolicy",
+      "value": "15"
+    },
+    "1100": {
+      "state": "measured",
+      "method": "accountpolicy",
+      "value": "10"
+    },
+    "1104": {
+      "state": "measured",
+      "method": "secedit",
+      "value": "1"
+    },
+    "1102": {
+      "state": "measured",
+      "method": "accountpolicy",
+      "value": "15"
+    },
+    "1200": {
+      "state": "measured",
+      "method": "accesschk",
+      "value": "BUILTIN\\Administrators"
+    },
+    "1201": {
+      "state": "measured",
+      "method": "accesschk",
+      "value": "BUILTIN\\Users;BUILTIN\\Administrators"
+    },
+    "1202": {
+      "state": "measured",
+      "method": "accesschk",
+      "value": ""
+    },
+    "1203": {
+      "state": "measured",
+      "method": "accesschk",
+      "value": "BUILTIN\\Guests;NT AUTHORITY\\Local account"
+    },
+    "1204": {
+      "state": "measured",
+      "method": "accesschk",
+      "value": "BUILTIN\\Guests"
+    },
+    "1205": {
+      "state": "measured",
+      "method": "accesschk",
+      "value": "BUILTIN\\Guests"
+    },
+    "1206": {
+      "state": "measured",
+      "method": "accesschk",
+      "value": "BUILTIN\\Guests;NT AUTHORITY\\Local account"
+    },
+    "1300": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "3"
+    },
+    "1301": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1328": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1302": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1303": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1304": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1305": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1306": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1329": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1307": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1308": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1309": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1310": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1311": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1324": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1325": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "O:BAG:BAD:(A;;RC;;;BA)"
+    },
+    "1312": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1326": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1313": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "5"
+    },
+    "1330": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1314": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1315": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "537395200"
+    },
+    "1316": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "537395200"
+    },
+    "1317": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "1318": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "7"
+    },
+    "1319": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1320": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1321": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1322": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "1323": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1400": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1418": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1401": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1419": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1402": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1420": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1403": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "16384"
+    },
+    "1421": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "16384"
+    },
+    "1404": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1422": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1405": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1423": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1406": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1424": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1407": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1425": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1408": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1426": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1409": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "16384"
+    },
+    "1427": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "16384"
+    },
+    "1410": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1428": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1411": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1429": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1412": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1430": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1413": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1431": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1414": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1432": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1415": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "16384"
+    },
+    "1433": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "16384"
+    },
+    "1416": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1434": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1417": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1435": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1500": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1501": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success"
+    },
+    "1502": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1503": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1504": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success"
+    },
+    "1505": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success"
+    },
+    "1506": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Failure"
+    },
+    "1507": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success"
+    },
+    "1508": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1509": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1510": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success"
+    },
+    "1511": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Failure"
+    },
+    "1512": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1513": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1514": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1515": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1516": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1517": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success"
+    },
+    "1518": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success"
+    },
+    "1519": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1520": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Failure"
+    },
+    "1521": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1522": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1523": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success"
+    },
+    "1524": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success"
+    },
+    "1525": {
+      "state": "measured",
+      "method": "auditpol",
+      "value": "Success and Failure"
+    },
+    "1828": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1600": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1829": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1830": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1601": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1831": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1832": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1833": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1834": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1835": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1836": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "785"
+    },
+    "1837": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2000"
+    },
+    "1838": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1839": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1840": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1602": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1841": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1842": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "785"
+    },
+    "1843": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1604": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "2108": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2109": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2110": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "*"
+    },
+    "2111": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2112": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2113": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2116": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2114": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2115": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1844": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "1772": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1845": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1846": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1847": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "5"
+    },
+    "1848": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1849": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1850": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1851": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1852": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1853": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1768": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1769": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1764": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1765": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1771": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1854": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1855": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1856": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1605": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1606": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1699": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1614": {
+      "state": "measured",
+      "method": "CimInstance",
+      "value": "2"
+    },
+    "1615": {
+      "state": "measured",
+      "method": "CimInstance",
+      "value": "2"
+    },
+    "1616": {
+      "state": "measured",
+      "method": "CimInstance",
+      "value": "3"
+    },
+    "1617": {
+      "state": "measured",
+      "method": "CimInstance",
+      "value": "1"
+    },
+    "1619": {
+      "state": "measured",
+      "method": "CimInstance",
+      "value": "1"
+    },
+    "1618": {
+      "state": "measured",
+      "method": "CimInstance",
+      "value": "2"
+    },
+    "1620": {
+      "state": "measured",
+      "method": "CimInstance",
+      "value": "2"
+    },
+    "1623": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1621": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1622": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1607": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1608": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1609": {
+      "state": "measured",
+      "method": "RegistryList",
+      "value": "PCI\\CC_0C0010"
+    },
+    "1610": {
+      "state": "measured",
+      "method": "RegistryList",
+      "value": "PCI\\CC_0C0A"
+    },
+    "1611": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1612": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1613": {
+      "state": "measured",
+      "method": "RegistryList",
+      "value": "d48179be-ec20-11d1-b6b8-00c04fa372a7"
+    },
+    "1630": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "3"
+    },
+    "1631": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1632": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1640": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "1641": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1642": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1643": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1644": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1645": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1650": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1857": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1858": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "1660": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1661": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1662": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1670": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1000000000000"
+    },
+    "1680": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1859": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1685": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1686": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1687": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1688": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1690": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1691": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1692": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1693": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "1694": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1696": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1697": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1698": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1860": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1861": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1862": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1700": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1701": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "1702": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1703": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1704": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "255"
+    },
+    "1705": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1706": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1707": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1773": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1708": {
+      "state": "measured",
+      "method": "BitLockerVolume",
+      "value": "FullyEncrypted"
+    },
+    "1761": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "6"
+    },
+    "1762": {
+      "state": "measured",
+      "method": "BitLockerVolume",
+      "value": "XtsAes128"
+    },
+    "1709": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1710": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1711": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1715": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1716": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1717": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1718": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1719": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1712": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1713": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1763": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "8"
+    },
+    "1720": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1863": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1721": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1722": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1724": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1864": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1725": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1726": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1865": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1866": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1867": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1868": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1727": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "99"
+    },
+    "1728": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "32768"
+    },
+    "1729": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "196608"
+    },
+    "1730": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "32768"
+    },
+    "1774": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "268435456"
+    },
+    "1775": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "268435456"
+    },
+    "1731": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1869": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1732": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1870": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1874": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1800": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1826": {
+      "state": "measured",
+      "method": "MpComputerStatus",
+      "value": "True"
+    },
+    "1801": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1806": {
+      "state": "measured",
+      "method": "Registry",
+      "value": ""
+    },
+    "1807": {
+      "state": "measured",
+      "method": "MpPreferenceExclusion",
+      "value": ""
+    },
+    "1808": {
+      "state": "measured",
+      "method": "Registry",
+      "value": ""
+    },
+    "1809": {
+      "state": "measured",
+      "method": "MpPreferenceExclusion",
+      "value": ""
+    },
+    "1810": {
+      "state": "measured",
+      "method": "Registry",
+      "value": ""
+    },
+    "1811": {
+      "state": "measured",
+      "method": "MpPreferenceExclusion",
+      "value": ""
+    },
+    "1816": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "1817": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1818": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "1819": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1820": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "1821": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1822": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1823": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1824": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1825": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1812": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1900": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1901": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1916": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1902": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1917": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1903": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1918": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1904": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1919": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1905": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1920": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1906": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1921": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1907": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1922": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1908": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "1923": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "2"
+    },
+    "1909": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1924": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1910": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1925": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1911": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1926": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1912": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1927": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1913": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1928": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1914": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1929": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1915": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1930": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1931": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1932": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1933": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1934": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1935": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1936": {
+      "state": "measured",
+      "method": "MpPreferenceAsr",
+      "value": "1"
+    },
+    "1966": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1967": {
+      "state": "measured",
+      "method": "MpPreferenceExclusion",
+      "value": ""
+    },
+    "1965": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1733": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1734": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1871": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1735": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1736": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1872": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1737": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1738": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1739": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "3"
+    },
+    "1740": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1741": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1742": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1743": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1744": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1745": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "3"
+    },
+    "2000": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1873": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "2001": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "Block"
+    },
+    "1746": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1747": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1748": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1749": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1750": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1751": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1770": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1752": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1776": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "2105": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2106": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "*"
+    },
+    "2100": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2101": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2102": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2107": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1753": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1754": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1755": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1756": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1757": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1758": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "1759": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "1760": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "2201": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "8"
+    },
+    "2202": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "2203": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "2209": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "2213": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "4"
+    },
+    "2214": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "2215": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2216": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2204": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2205": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "2206": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "2"
+    },
+    "2207": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "2208": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "1"
+    },
+    "2400": {
+      "state": "measured",
+      "method": "ScheduledTask",
+      "value": "Disabled"
+    },
+    "2411": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "0"
+    },
+    "2401": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "4"
+    },
+    "2402": {
+      "state": "measured",
+      "method": "service",
+      "value": "Disabled"
+    },
+    "2412": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "4"
+    },
+    "2413": {
+      "state": "measured",
+      "method": "service",
+      "value": "Disabled"
+    },
+    "2403": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "4"
+    },
+    "2404": {
+      "state": "measured",
+      "method": "service",
+      "value": "Disabled"
+    },
+    "2405": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "4"
+    },
+    "2406": {
+      "state": "measured",
+      "method": "service",
+      "value": "Disabled"
+    },
+    "2407": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "4"
+    },
+    "2408": {
+      "state": "measured",
+      "method": "service",
+      "value": "Disabled"
+    },
+    "2409": {
+      "state": "measured",
+      "method": "Registry",
+      "value": "4"
+    },
+    "2410": {
+      "state": "measured",
+      "method": "service",
+      "value": "Disabled"
+    },
+    "1950": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "ON"
+    },
+    "1951": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "ON"
+    },
+    "1952": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "False"
+    },
+    "1954": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "ON"
+    },
+    "1955": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "False"
+    },
+    "1956": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "ON"
+    },
+    "1957": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "False"
+    },
+    "1958": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "ON"
+    },
+    "1959": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "False"
+    },
+    "1960": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "ON"
+    },
+    "1961": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "OFF"
+    },
+    "1962": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "False"
+    },
+    "1963": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "ON"
+    },
+    "1964": {
+      "state": "measured",
+      "method": "Processmitigation",
+      "value": "False"
+    },
+    "1953": {
+      "state": "measured",
+      "method": "bcdedit",
+      "value": "AlwaysOn"
+    },
+    "2300": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2301": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2302": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2303": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2304": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2305": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2306": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2307": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2308": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2309": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2310": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2311": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2312": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2313": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2314": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2315": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2316": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2317": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2318": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2319": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2320": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2321": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    },
+    "2322": {
+      "state": "measured",
+      "method": "FirewallRule",
+      "value": "True"
+    }
+  }
+}
